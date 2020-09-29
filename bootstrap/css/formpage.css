@@ -167,3 +167,7 @@ button.submit:active {
   -ms-box-shadow: 0 0 10px 5px #356b0b inset;
   -o-box-shadow: 0 0 10px 5px #356b0b inset;
 }
+
+.contact_form {
+  overflow-x: auto;
+}

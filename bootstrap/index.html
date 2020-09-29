@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/app.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light navbar-expand-lg sticky-top">
+      <div class="container">
+        <img
+          src="http://www.balonazos.com/wp-content/uploads/2015/11/RUSIA2018.png"
+          alt="Rusia 2018 logo"
+          title="Rusia 2018"
+          id="header-image"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggler"
+          aria-controls="navbarToggler"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a
+                class="nav-link"
+                id="navbarDropdownMenuLink"
+                role="button"
+                href="#"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="navbarDropdownMenuLink"
+                role="button"
+                href="#"
+                >Sede</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="navbarDropdownMenuLink"
+                role="button"
+                href="./pages/partido.html"
+                >Partidos</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropMenuGroupA"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Grupo A
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropMenuGroupA">
+                <a class="dropdown-item" href="#">Uruguay</a>
+                <a class="dropdown-item" href="#">Rusia</a>
+                <a class="dropdown-item" href="#">Arabia Saudí</a>
+                <a class="dropdown-item" href="#">Egipto</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropMenuGroupB"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Grupo B
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropMenuGroupB">
+                <a class="dropdown-item" href="#">España</a>
+                <a class="dropdown-item" href="#">Portugal</a>
+                <a class="dropdown-item" href="#">RI de Irán</a>
+                <a class="dropdown-item" href="#">Marruecos</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropMenuGroupC"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                href="#"
+                >Grupo C
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropMenuGroupC">
+                <a class="dropdown-item" href="#">Francia</a>
+                <a class="dropdown-item" href="#">Dinamarca</a>
+                <a class="dropdown-item" href="#">Perú</a>
+                <a class="dropdown-item" href="#">Australia</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="dropMenuGroupD"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                href="#"
+                >Grupo D
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropMenuGroupD">
+                <a class="dropdown-item" href="#">Croacia</a>
+                <a class="dropdown-item" href="#">Argentina</a>
+                <a class="dropdown-item" href="#">Nigeria</a>
+                <a class="dropdown-item" href="#">Islandia</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropMenuGroupH"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Grupo H
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropMenuGroupH">
+                <a class="dropdown-item" href="./selecciones/colombia.html"
+                  >Colombia
+                </a>
+                <a class="dropdown-item" href="#">Japón</a>
+                <a class="dropdown-item" href="#">Senegal</a>
+                <a class="dropdown-item" href="#">Polonia</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="contacto"
+                role="button"
+                href="./pages/form.html"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="contenedor">
+      <div class="row px-4">
+        <div class="col-xs-12 col-sm-12 col-md-9">
+          <h1>Mundial de Rusia 2018</h1>
+          <hr />
+          <p>
+            La Copa Mundial de la FIFA Rusia 2018 (en ruso: Чемпионат мира по
+            футболу Россия 2018) será la vigésima primera edición de la Copa
+            Mundial de Fútbol. Esta edición del evento se realizará en Rusia
+            entre el 14 de junio y el 15 de julio de 2018, siendo la primera vez
+            que un país de Europa Oriental organiza el campeonato.
+          </p>
+          <p>
+            A partir del 13 de marzo hasta el 3 de abril de 2018 (12:00 Hora de
+            Moscú), podrá solicitar Entradas para la Copa Mundial de la FIFA
+            Rusia 2018™. Las Entradas serán asignadas en base al Orden en que
+            vayan llegando las Solicitudes de Entrada y sujetas a la
+            disponibilidad.
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3">
+          <picture>
+            <img
+              src="https://i.pinimg.com/736x/69/ba/d7/69bad7b9e9a5baa1c88c14d263142ce2.jpg"
+              alt="Mascota del mundial 2018"
+            />
+          </picture>
+          <i><span>ZABIVAKA</span> - Mascota del mundial</i>
+        </div>
+      </div>
+      <div class="row px-4">
+        <div class="col-xs-12 col-sm-12 col-md-9">
+          <h2>Elección del país anfitrión</h2>
+          <hr />
+          <p>
+            La FIFA decidió que la elección de la sede de la Copa Mundial de
+            Fútbol de 2018 se efectuara en conjunto con la de 2022 en la reunión
+            del Comité Ejecutivo del organismo, realizado enZúrich (Suiza) el 2
+            de diciembre de 2010.
+          </p>
+          <p>
+            De acuerdo al sistema de rotación continental implementado por la
+            FIFA, las asociaciones miembro o asociadas a la CAF y la CONMEBOL se
+            encontraban vetadas para participar de esta candidatura. En
+            consecuencia, Rusia presentó su candidatura oficialmente junto a las
+            de Japón, Corea del Sur, Australia, Bélgica-Países Bajos,
+            Inglaterra, España-Portugal, Estados Unidos y Qatar. Finalmente,
+            Australia, Japón, Corea del Sur, Catar y Estados Unidos se retiraron
+            algunos meses antes de la decisión para concentrarse en la elección
+            de 2022.
+          </p>
+          <p>
+            La votación se realizó en Zúrich el 2 de diciembre de 2010. En la
+            primera ronda, Inglaterra alcanzó dos votos, Países Bajos-Bélgica
+            obtuvo cuatro, España-Portugal llegó a los siete y Rusia se alzó con
+            nueve. Al no alcanzar ninguno la mayoría necesaria de doce,
+            Inglaterra fue eliminado por ser el candidato con menos respaldo y
+            fue necesaria una segunda ronda. Aquí Rusia consiguió trece sobre
+            los siete que recibió la dupla ibérica ylos dos que recibió la
+            candidatura Bélgica-Países Bajos.
+          </p>
+          <p>
+            Tras la elección, Vladímir Putin, el entonces primer ministro ruso,
+            aseguró que «Rusia 2018 será fantástico» y proyectó la construcción
+            de nuevos estadios y la presencia de «las más altas normativas de
+            calidad». Por su parte, Blatter realizó el viaje protocolar al país
+            seleccionado y aseguró «que se producirá una cooperación maravillosa
+            entre la FIFA y Rusia».
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3">
+          <picture>
+            <img
+            src="http://www.brandemia.org/sites/default/files/sites/default/files/logotipo_rusia_2018.jpeg""
+            alt="mundial 2018 logo">
+          </picture>
+          <i>Logo del mundial</i>
+        </div>
+      </div>
+      <div class="px-4 mt-5">
+        <h2>Formato de competición</h2>
+        <hr />
+        <p>
+          Los 32 equipos que participan en la fase final se dividen en 8 grupos
+          de 4 equipos cada uno. Dentro del grupo cada equipo juega tres
+          partidos, uno contra cada uno de los demás miembros del grupo. Según
+          el resultado de cada partido, se otorgan tres puntos al ganador y
+          ninguno al perdedor, y en caso de empate, se otorga un punto a cada
+          equipo.
+        </p>
+        <p>
+          Pasan a la siguiente ronda los dos equipos de cada grupo mejor
+          clasificados. El orden de clasificación se determina teniendo en
+          cuenta los siguientes criterios, en orden de preferencia:
+        </p>
+        <ol class="mt-3">
+          <li>
+            El mayor número de puntos obtenidos teniendo en cuenta todos los
+            partidos del grupo
+          </li>
+          <li>
+            La mayor diferencia de goles sumados teniendo en cuenta todos los
+            partidos del grupo
+          </li>
+          <li>
+            El mayor número de goles a favor anotados teniendo en cuenta todos
+            los partidos del grupo
+          </li>
+        </ol>
+        <p>
+          Si dos o más equipos quedan igualados según los criterios anteriores
+          sus posiciones, se determinarán mediante los siguientes criterios, en
+          orden de preferencia:
+        </p>
+        <ol class="mt-3">
+          <li>
+            El mayor número de puntos obtenidos entre los equiposen cuestión
+          </li>
+          <li>
+            La diferencia de goles teniendo en cuenta los partidos entre los
+            equipos en cuestión
+          </li>
+          <li>
+            El mayor número de goles a favor anotados por cada equipo en los
+            partidos disputados entre los equipos en cuestión
+          </li>
+          <li>Sorteo del comité organizador de la Copa Mundial</li>
+        </ol>
+        <p>
+          La segunda ronda incluye todas las fases desde los octavos de final
+          hasta la final. El ganador de cada partido pasa a la siguiente fase, y
+          el perdedor queda eliminado. Los equipos perdedores de las
+          semifinalesjuegan un partido por el tercer y cuarto puesto. En el
+          partido final, el ganador obtiene la Copa del Mundo.
+        </p>
+        <p>
+          Si el partido termina empatado se juega un tiempo suplementario. Si el
+          resultado sigue igualado tras la prórroga se define con tiros desde el
+          punto penal.
+        </p>
+      </div>
+    </div>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <footer class="footer mt-3 pb-3">
+    <div class="container">
+      <p class="text-muted pt-3">Programación Aplicaciones Web - 2020</p>
+      <p class="text-muted">Kevin Toro ©</p>
+    </div>
+  </footer>
+</html>

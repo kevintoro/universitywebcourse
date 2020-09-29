@@ -1,5 +1,6 @@
 $("#selh3").click(function (event) {
   $("#contenedor").load("selecciones/colombia.html");
+  $("#navbarToggler ul li a").removeClass("active");
   $("#navbarToggler ul li").removeClass("active");
   $("#dropMenuGroupH").addClass("active");
 });

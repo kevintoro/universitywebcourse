@@ -40,13 +40,13 @@ body {
   color: #d45252;
   margin: 5px 0 0 0;
   display: inline;
-  float: right;
+  /* float: right; */
 } /* === Form Elements === */
 .contact_form label {
   width: 150px;
   margin-top: 3px;
   display: inline-block;
-  float: left;
+  /* float: left; */
   padding: 3px;
 }
 .contact_form input {

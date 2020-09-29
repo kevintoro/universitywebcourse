@@ -18,3 +18,7 @@ h1 {
 picture img {
   width: 100%;
 }
+
+footer p {
+  margin: 0;
+}

@@ -1,0 +1,10 @@
+{
+  "partidos": [
+    { "equipo1": "Colombia", "equipo2": "Polonia", "fecha": "21/06/2018" },
+    { "equipo1": "Colombia", "equipo2": "Senegal", "fecha": "23/06/2018" },
+    { "equipo1": "Colombia", "equipo2": "Japon", "fecha": "25/06/2018" },
+    { "equipo1": "Japon", "equipo2": "Senegal", "fecha": "21/06/2018" },
+    { "equipo1": "Japon", "equipo2": "Polonia", "fecha": "23/06/2018" },
+    { "equipo1": "Senegal", "equipo2": "Polonia", "fecha": "25/06/2018" }
+  ]
+}

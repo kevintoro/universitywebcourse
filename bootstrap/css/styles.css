@@ -5,3 +5,7 @@ footer {
   height: 60px;
   background-color: #f5f5f5;
 }
+
+.navbar-header img {
+  height: 60px;
+}

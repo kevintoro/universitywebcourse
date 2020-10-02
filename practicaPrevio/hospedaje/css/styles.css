@@ -2,6 +2,11 @@ nav {
   background-color: #16a085;
 }
 
+#central-img {
+  display: block;
+  width: 100%;
+}
+
 @media (min-width: 370px) and (max-width: 993px) {
   .navbar-brand {
     position: absolute;

@@ -1,0 +1,36 @@
+{
+  "habitaciones": [
+    {
+      "image": "https://cf.bstatic.com/images/hotel/max1024x768/238/238751575.jpg",
+      "description": "Ambiente familiar, amplia, baño privado para compartir, salida"
+    },
+    {
+      "image": "https://thesensorylab.es/wp-content/uploads/2018/05/mood-rooms-habitaciones-hotel-emociones-huespedes.png",
+      "description": "Ambiente familiar, amplia, baño privado para compartir, salida"
+    },
+    {
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/0f/85/ae/1d/starlight-luxury-rooms.jpg",
+      "description": "Ambiente familiar, amplia, baño privado para compartir, salida"
+    },
+    {
+      "image": "https://www.aparthotelduomo.com/wp-content/uploads/2019/05/bkg-deluxeahd-1.jpg",
+      "description": "Ambiente familiar, amplia, baño privado para compartir, salida"
+    },
+    {
+      "image": "https://pix10.agoda.net/hotelImages/4656079/-1/f7771c6afc7cc32401286116a7eed6f0.jpg",
+      "description": "Ambiente familiar, amplia, baño privado para compartir, salida"
+    },
+    {
+      "image": "https://images.adsttc.com/media/images/5d6a/6699/284d/d116/5500/0320/newsletter/meritxell-ribe-192019.jpg?1567254132",
+      "description": "Ambiente familiar, amplia, baño privado para compartir, salida"
+    },
+    {
+      "image": "https://cf.bstatic.com/images/hotel/max1024x768/167/167534297.jpg",
+      "description": "Ambiente familiar, amplia, baño privado para compartir, salida"
+    },
+    {
+      "image": "https://www.thespruce.com/thmb/X_uj4i4TdVrORb3ec1yrbHoq83k=/2032x1475/filters:fill(auto,1)/GettyImages-1187200939-74336d2a866d4c99853f700cb4ad7d5f.jpg",
+      "description": "Ambiente familiar, amplia, baño privado para compartir, salida"
+    }
+  ]
+}

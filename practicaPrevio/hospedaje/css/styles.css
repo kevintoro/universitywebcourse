@@ -1,0 +1,39 @@
+nav {
+  background-color: #16a085;
+}
+
+@media (min-width: 370px) and (max-width: 993px) {
+  .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+  }
+
+  .navbar-toggler {
+    position: relative;
+    left: 85%;
+  }
+
+  .nav-item {
+    position: relative;
+    top: 60%;
+  }
+}
+
+@media (min-width: 993px) {
+  .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .navbar {
+    height: 60px;
+  }
+
+  .navbar-nav {
+    position: relative;
+    left: 85%;
+  }
+}

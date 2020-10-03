@@ -7,11 +7,13 @@ function getData() {
         "card", "mb-3", "px-0"
       );
       elemento.innerHTML =
-        "<img src=" + value.image +
-        ' class="card-img-top" alt="room">' +
-        '<div class="card-body">' +
-        '<p class="card-text">' + value.description + "</p>" +
-        "</div>";
+        `<img src=${value.image} class="card-img-top" alt="room">
+        <div class="card-body">
+          <p class="card-text">${value.description}</p>
+          <div class="text-right">
+            <button class="btn btn-card">+</button>
+          </div>
+        </div>`;
       $("#contenido").append(elemento);
     });
   });

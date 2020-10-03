@@ -4,7 +4,7 @@ function getData() {
     $.each(data.habitaciones, (index, value) => {
       var elemento = document.createElement("div");
       elemento.classList.add(
-        "card", "mb-3", "px-0"
+        "card", "mb-3", "px-0", "room-card"
       );
       elemento.innerHTML =
         `<img src=${value.image} class="card-img-top" alt="room">

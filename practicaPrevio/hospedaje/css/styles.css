@@ -7,6 +7,15 @@ nav {
   width: 100%;
 }
 
+.btn-card {
+  background-color: #16a085;
+  color: #ffffff;
+  font-size: 25;
+  font-weight: bold;
+  border-radius: 30px;
+  height: 35px;
+}
+
 @media (min-width: 370px) and (max-width: 993px) {
   .navbar-brand {
     position: absolute;

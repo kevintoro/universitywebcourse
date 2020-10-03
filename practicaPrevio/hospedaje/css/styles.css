@@ -60,21 +60,21 @@ nav {
 }
 
 @media (min-width: 500px) and (max-width: 760px) {
-  .card {
+  .room-card {
     width: 45% !important;
     margin: 2.5%;
   }
 }
 
 @media (min-width: 760px) and (max-width: 1000px) {
-  .card {
+  .room-card {
     width: 30% !important;
     margin: 1.5%;
   }
 }
 
 @media (min-width: 1000px) {
-  .card {
+  .room-card {
     width: 24% !important;
     margin: 0.5%;
   }

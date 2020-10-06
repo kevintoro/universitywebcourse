@@ -1,0 +1,93 @@
+nav {
+  background-color: #16a085;
+}
+
+#central-img {
+  display: block;
+  width: 100%;
+}
+
+.btn-card {
+  background-color: #16a085;
+  color: #ffffff;
+  font-size: 25;
+  font-weight: bold;
+  border-radius: 30px;
+  height: 35px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+@media (min-width: 370px) and (max-width: 993px) {
+  .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+  }
+
+  .navbar-toggler {
+    position: relative;
+    left: 85%;
+  }
+
+  .nav-item {
+    position: relative;
+    top: 60%;
+  }
+}
+
+@media (min-width: 993px) {
+  .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .navbar {
+    height: 60px;
+  }
+
+  .navbar-nav {
+    position: relative;
+    left: 85%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .card {
+    width: 90% !important;
+    margin: 5%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 760px) {
+  .room-card {
+    width: 45% !important;
+    margin: 2.5%;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1000px) {
+  .room-card {
+    width: 30% !important;
+    margin: 1.5%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .room-card {
+    width: 24% !important;
+    margin: 0.5%;
+  }
+}

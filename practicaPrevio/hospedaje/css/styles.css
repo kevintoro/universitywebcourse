@@ -16,6 +16,18 @@ nav {
   height: 35px;
 }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 @media (min-width: 370px) and (max-width: 993px) {
   .navbar-brand {
     position: absolute;
